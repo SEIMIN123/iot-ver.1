@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 400vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#menu {
+  font: bold 16px "malgun gothic";
+  width: 30vw;
+  height: 5vh;
+  line-height: 50px;
+  text-align: center;
+  margin-right: -68vw;
+  margin-top: -390vh;
+  position: fixed;
+}
+
+#menu > ul > li {
+  float: left;
+  width: 140px;
+  position: relative;
+  transition: ease 1s;
+}
+
+#menu > ul > li > ul {
+  width: 130px;
+  display: none;
+  font-size: 14px;
+  background: #fff;
+  transition: ease 1s;
+}
+
+#menu > ul > li:hover > ul {
+  display: block;
+  transition: ease 1s;
+}
+
+#menu > ul > li > ul > li:hover {
+  background: rgb(230, 230, 230);
+  transition: ease 1s;
+}
+
+.box1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.box2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(231, 231, 231);
+}
+
+.box3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(155, 155, 155);
+}
+
+.box4 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(146, 146, 146);
+}
+
+.box5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(110, 110, 110);
+}
