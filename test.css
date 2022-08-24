@@ -48,7 +48,6 @@ body {
   width: 130px;
   display: none;
   font-size: 14px;
-  background: #fff;
   transition: ease 1s;
 }
 
@@ -58,8 +57,9 @@ body {
 }
 
 #menu > ul > li > ul > li:hover {
-  background: rgb(230, 230, 230);
+  background-color: rgba(250, 250, 250, 0.8);
   transition: ease 1s;
+  border-radius: 5px;
 }
 
 .box1 {
