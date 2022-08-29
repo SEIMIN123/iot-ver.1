@@ -17,21 +17,21 @@ btn1.addEventListener('click', () => {
 
 btn2.addEventListener('click', () => {
     scrollTo({
-        top: 970,
+        top: 961,
         behavior: "smooth"
     });
 });
 
 btn3.addEventListener('click', () => {
     scrollTo({
-        top: 1940,
+        top: 1922,
         behavior: "smooth"
     });
 });
 
 btn4.addEventListener('click', () => {
     scrollTo({
-        top: 3380,
+        top: 2879,
         behavior: "smooth"
     });
 });
