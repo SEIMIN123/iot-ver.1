@@ -11,7 +11,7 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   transition: 0.5s;
 }
 
@@ -63,7 +63,7 @@ label[for=trigger] {
 label[for=trigger] span {
   display: block;
   height: 2px;
-  background-color: #000;
+  background-color: #fff;
   width: 100%;
   left: 0;
   position: absolute;
@@ -127,7 +127,7 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 
 .side {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(185, 185, 185, 0.7);
 }
 
 .side1 {
@@ -142,7 +142,7 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 
 .side1:hover {
-  color: #ccc;
+  color: rgb(247, 247, 247);
   opacity: 1;
 }
 
@@ -234,7 +234,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box1 {
   width: 100vw;
   height: 100vh;
-  background: url(./img/kokobot.jpg);
+  background: url(./img/machun.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -246,7 +246,10 @@ input[id=trigger]:checked + label[for=trigger] {
   width: 100vw;
   height: 100vh;
   background: url("./img/machun1.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   z-index: 0;
 }
 
@@ -255,7 +258,8 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 100vh;
   background: url("./img/machun2.jpg");
   background-size: cover;
-  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
   z-index: 0;
 }
 
@@ -264,6 +268,8 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 100vh;
   background: url("./img/machun3.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   z-index: 0;
 }
 
