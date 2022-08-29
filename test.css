@@ -48,7 +48,8 @@ input[id=trigger] {
 label[for=trigger] {
   width: 30px;
   height: 20px;
-  position: absolute;
+  display: block;
+  position: relative;
   cursor: pointer;
 }
 
@@ -57,9 +58,10 @@ label[for=trigger] span {
   display: block;
   height: 2px;
   background-color: #000;
+  left: 0;
   width: 100%;
   position: absolute;
-  transition: 0.5s;
+  transition: 0.3s;
   z-index: 1000;
 }
 
@@ -221,6 +223,18 @@ input[id=trigger]:checked + label[for=trigger] {
   width: 100vw;
   height: 100vh;
   background-color: rgb(146, 146, 146);
+}
+
+.hanbat {
+  width: 10vw;
+  height: 10vh;
+  margin-left: -90vw;
+  position: absolute;
+  background: url(./img/hanbat.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
 }
 
 .footer {
