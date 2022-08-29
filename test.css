@@ -39,12 +39,10 @@ body::-webkit-scrollbar {
   z-index: 3000;
 }
 
-/* input 중에 id가 trigger인 항목에 대한 css */
 input[id=trigger] {
   display: none;
 }
 
-/* label 중에 for가 trigger인 항목 */
 label[for=trigger] {
   width: 30px;
   height: 20px;
@@ -53,7 +51,6 @@ label[for=trigger] {
   cursor: pointer;
 }
 
-/* label 중에 for가 trigger인 항목 안의 span */
 label[for=trigger] span {
   display: block;
   height: 2px;
@@ -65,7 +62,6 @@ label[for=trigger] span {
   z-index: 1000;
 }
 
-/* label[for=trigger] > span의 n번째 요소 */
 label[for=trigger] span:nth-child(1) {
   top: 0;
 }
@@ -78,7 +74,6 @@ label[for=trigger] span:nth-child(3) {
   top: 100%;
 }
 
-/* check시 변하는 label[for=trigger] > span의 n번째 요소  */
 input[id=trigger]:checked + label span:nth-child(1) {
   top: 50%;
   transform: rotate(45deg);
@@ -97,7 +92,7 @@ input[id=trigger]:checked + label span:nth-child(3) {
 .sidebar {
   width: 320px;
   height: 100vh;
-  background-color: rgba(50, 50, 50, 0.1);
+  background-color: rgba(250, 250, 250, 0.2);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   position: fixed;
@@ -107,21 +102,19 @@ input[id=trigger]:checked + label span:nth-child(3) {
   transition: 0.5s;
   flex-direction: column;
   font-size: 1.1vw;
-  transition: 0.3s;
+  transition: 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
 input[id=trigger]:checked ~ .sidebar {
   left: 0;
 }
 
-/* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
 input[id=trigger]:checked + label[for=trigger] {
-  left: 210px;
-  transition: 0.3s;
+  left: 0;
+  transition: 0.5s;
 }
 
 .side1 {
@@ -129,9 +122,15 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 10vh;
   margin: 3vw;
   cursor: pointer;
+  transition: 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.side1:hover {
+  color: #fff;
+  opacity: 1;
 }
 
 .side2 {
@@ -139,9 +138,15 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 10vh;
   margin: 3vw;
   cursor: pointer;
+  transition: 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.side2:hover {
+  color: #fff;
+  opacity: 1;
 }
 
 .side3 {
@@ -149,9 +154,15 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 10vh;
   margin: 3vw;
   cursor: pointer;
+  transition: 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.side3:hover {
+  color: #fff;
+  opacity: 1;
 }
 
 .side4 {
@@ -159,20 +170,28 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 10vh;
   margin: 3vw;
   cursor: pointer;
+  transition: 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.side4:hover {
+  color: #fff;
+  opacity: 1;
+}
+
 #menu {
-  font: bold 16px "malgun gothic";
-  width: 30vw;
+  width: 35vw;
   height: 5vh;
   line-height: 50px;
   text-align: center;
-  margin-right: -68vw;
+  margin-right: -58vw;
   margin-top: -400vh;
+  font-size: 0.9vw;
   position: fixed;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   cursor: pointer;
 }
 
@@ -180,19 +199,19 @@ input[id=trigger]:checked + label[for=trigger] {
   float: left;
   width: 140px;
   position: relative;
-  transition: ease 1s;
+  transition: 1s;
+  margin: 5px;
 }
 
 #menu > ul > li > ul {
   width: 130px;
   display: none;
   font-size: 14px;
-  transition: ease 1s;
+  transition: 1s;
 }
 
 #menu > ul > li:hover > ul {
   display: block;
-  transition: ease 1s;
 }
 
 #menu > ul > li > ul > li:hover {
@@ -204,7 +223,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box1 {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(207, 207, 207);
 }
 
 .box2 {
@@ -230,7 +249,7 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 10vh;
   margin-left: -90vw;
   position: absolute;
-  background: url(./img/hanbat.png);
+  background: url("./img/hanbat.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
