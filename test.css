@@ -11,13 +11,12 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   transition: 0.5s;
-
 }
-.mtext:hover {
 
-  color: rgb(255, 255, 255);
+.mtext:hover {
+  color: rgb(158, 158, 158);
   opacity: 1;
 }
 
@@ -40,7 +39,7 @@ body::-webkit-scrollbar {
 }
 
 .container {
-  margin-left: -93vw;
+  margin-left: -95vw;
   margin-top: -401vh;
   position: fixed;
   z-index: 3000;
@@ -61,7 +60,7 @@ label[for=trigger] {
 label[for=trigger] span {
   display: block;
   height: 2px;
-  background-color: #000;
+  background-color: #fff;
   width: 100%;
   left: 0;
   position: absolute;
@@ -124,12 +123,16 @@ input[id=trigger]:checked + label[for=trigger] {
   transition: 0.5s;
 }
 
+.side {
+  color: rgba(226, 226, 226, 0.5);
+}
+
 .side1 {
   width: 320px;
   height: 10vh;
   margin: 3vw;
-  cursor: pointer;
   transition: 0.5s;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,8 +200,7 @@ input[id=trigger]:checked + label[for=trigger] {
   margin-top: -400vh;
   font-size: 0.9vw;
   position: fixed;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  z-index: 1;
   cursor: pointer;
 }
 
@@ -215,17 +217,15 @@ input[id=trigger]:checked + label[for=trigger] {
   display: none;
   font-size: 14px;
   transition: 1s;
-
 }
 
 #menu > ul > li:hover > ul {
   display: block;
-
 }
 
 #menu > ul > li > ul > li:hover {
   transition: ease 1s;
-  border-radius: 8px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,25 +234,33 @@ input[id=trigger]:checked + label[for=trigger] {
 .box1 {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(207, 207, 207);
+  background: url("./img/machun.jpg");
+  z-index: 0;
 }
 
 .box2 {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(231, 231, 231);
+  background: url("./img/machun1.jpg");
+  background-size: contain;
+  z-index: 0;
 }
 
 .box3 {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(155, 155, 155);
+  background: url("./img/machun2.jpg");
+  background-size: cover;
+  filter: blur(1px);
+  z-index: 0;
 }
 
 .box4 {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(146, 146, 146);
+  background: url("./img/machun3.jpg");
+  background-size: cover;
+  z-index: 0;
 }
 
 .hanbat {

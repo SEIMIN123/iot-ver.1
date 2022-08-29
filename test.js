@@ -31,7 +31,7 @@ btn3.addEventListener('click', () => {
 
 btn4.addEventListener('click', () => {
     scrollTo({
-        top: 2879,
+        top: 2886,
         behavior: "smooth"
     });
 });

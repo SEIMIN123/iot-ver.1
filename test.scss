@@ -20,7 +20,14 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.mtext:hover {
+
+    color: rgb(158, 158, 158);
+    opacity: 1;
 }
 
 body {
@@ -66,7 +73,7 @@ label[for=trigger] {
 label[for=trigger] span {
     display: block;
     height: 2px;
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     left: 0;
     position: absolute;
@@ -135,20 +142,24 @@ input[id=trigger]:checked + label[for=trigger] {
 
 }
 
+.side {
+	color: rgba(226, 226, 226, 0.5);
+}
+
 .side1 {
 
     width: 320px;
     height: 10vh;
     margin: 3vw;
+    transition: 0.5s;
     cursor: pointer;
-	transition: 0.5s;
     @include flex(flex,center,center);
 }
 
 .side1:hover {
 
-	color: #fff;
-	opacity: 1;
+    color: #fff;
+    opacity: 1;
 }
 
 .side2 {
@@ -157,15 +168,15 @@ input[id=trigger]:checked + label[for=trigger] {
     height: 10vh;
     margin: 3vw;
     cursor: pointer;
-	transition: 0.5s;
+    transition: 0.5s;
     @include flex(flex,center,center);
 
 }
 
 .side2:hover {
 
-	color: #fff;
-	opacity: 1;
+    color: #fff;
+    opacity: 1;
 
 }
 
@@ -175,15 +186,15 @@ input[id=trigger]:checked + label[for=trigger] {
     height: 10vh;
     margin: 3vw;
     cursor: pointer;
-	transition: 0.5s;
+    transition: 0.5s;
     @include flex(flex,center,center);
 
 }
 
 .side3:hover {
 
-	color: #fff;
-	opacity: 1;
+    color: #fff;
+    opacity: 1;
 
 }
 
@@ -193,15 +204,15 @@ input[id=trigger]:checked + label[for=trigger] {
     height: 10vh;
     margin: 3vw;
     cursor: pointer;
-	transition: 0.5s;
+    transition: 0.5s;
     @include flex(flex,center,center);
 
 }
 
 .side4:hover {
 
-	color: #fff;
-	opacity: 1;
+    color: #fff;
+    opacity: 1;
 }
 // ------------------------------------
 
@@ -214,17 +225,16 @@ input[id=trigger]:checked + label[for=trigger] {
     margin-top: -400vh;
     font-size: 0.9vw;
     position: fixed;
-    backdrop-filter: blur(5px);
+    z-index: 1;
     cursor: pointer;
 }
 
 #menu > ul > li {
     float: left;
-	width: 7vw;
+    width: 7vw;
     position: relative;
     transition: 1s;
     margin: 5px;
-
 
 }
 
@@ -241,37 +251,45 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 
 #menu > ul > li > ul > li:hover {
-    background-color: rgba(250,250,250,0.8);
     transition: ease 1s;
     border-radius: 5px;
-	@include flex(flex,center,center);
+    @include flex(flex,center,center);
 
 }
-
 
 // --------------------------------------------------------
 .box1 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(207, 207, 207);
+    background: url("./img/machun.jpg");
+    z-index: 0;
+
 }
 
 .box2 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(231, 231, 231);
+    background: url("./img/machun1.jpg");
+    background-size: contain;
+    z-index: 0;
+
 }
 
 .box3 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(155, 155, 155);
+    background: url("./img/machun2.jpg");
+    background-size: cover;
+    filter: blur(1px);
+    z-index: 0;
 }
 
 .box4 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(146, 146, 146);
+    background: url("./img/machun3.jpg");
+    background-size: cover;
+    z-index: 0;
 }
 
 .hanbat {
