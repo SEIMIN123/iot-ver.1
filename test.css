@@ -46,7 +46,10 @@ body::-webkit-scrollbar {
 }
 
 input[id=trigger] {
+  width: 30px;
+  height: 20px;
   display: none;
+  position: relative;
 }
 
 label[for=trigger] {

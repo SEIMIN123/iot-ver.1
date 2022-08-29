@@ -59,7 +59,10 @@ body::-webkit-scrollbar {
     z-index: 3000;
 }
 input[id=trigger] {
+	width: 30px;
+    height: 20px;
     display: none;
+    position: relative;
 }
 
 label[for=trigger] {
@@ -79,7 +82,6 @@ label[for=trigger] span {
     position: absolute;
     transition: 0.3s;
     z-index: 1000;
-
 }
 
 label[for=trigger] span:nth-child(1) {
