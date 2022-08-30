@@ -150,8 +150,8 @@ input[id=trigger]:checked + label[for=trigger] {
   width: 320px;
   height: 10vh;
   margin: 3vw;
-  cursor: pointer;
   transition: 0.5s;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,7 +234,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box1 {
   width: 100vw;
   height: 100vh;
-  background: url(./img/machun.jpg);
+  background: url(./img/box1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -249,7 +249,6 @@ input[id=trigger]:checked + label[for=trigger] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
   z-index: 0;
 }
 
