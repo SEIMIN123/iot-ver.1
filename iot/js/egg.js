@@ -3,6 +3,8 @@ $(document).ready(function () {
     var url = location.pathname;
     var slice = url.slice(-13, -5);
     var name = url.slice(-13,-7);
+    console.log(name);
+    console.log(slice);
 
     function create() {
         var newDIV = document.createElement("div");
