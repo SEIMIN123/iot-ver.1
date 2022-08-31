@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin flex ($d, $j, $a) {
+
+    display: ($d);
+    justify-content: ($j);
+    align-items: ($a);
+}
+
+@mixin border {
+    border: 1px solid black;
+}
+
+body::-webkit-scrollbar {
+
+    width: 0;
+    display: none;
+}
+
+#root {
+
+    width: 100vw;
+    height: 150vh;
+    flex-direction: column;
+    background-color: #000;
+    @include border();
+    @include flex(flex,center,center);
+
+    .return {
+
+        width: 5vw;
+        height: 5vh;
+        margin-left: -90vw;
+        margin-top: -135vh;
+        position: absolute;
+        color: #fff;
+        cursor: pointer;
+        @include flex(flex,center,center);
+    
+    }    
+
+    .text {
+
+        width: 70vw;
+        height: 70vh;
+        flex-direction: column;
+        margin-bottom: -25vh;
+        line-height: 5.5vw;
+        font-size: 2vw;
+        font-weight: bold;
+        color: #fff;
+        @include flex(flex,center,center);
+
+    }
+
+    .text0 {
+
+        width: 40vw;
+        height: 15vh;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        margin-top: -150vh;
+        font-size: 4vw;
+        position: absolute;
+        @include border();
+        @include flex(flex,center,center);
+
+    }
+    .text6 {
+
+        color: rgb(233, 221, 52);
+    }
+
+    .text7 {
+
+        list-style: none;
+        color: rgb(224, 39, 39);
+
+    }
+
+    .text10 {
+
+        color: rgb(233, 221, 52);
+
+    }
+
+    .text11 {
+
+        list-style: none;
+        color: rgb(224, 39, 39);
+
+    }
+
+}

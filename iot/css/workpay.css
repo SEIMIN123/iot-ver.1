@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+#root {
+  width: 100vw;
+  height: 150vh;
+  flex-direction: column;
+  background-color: #000;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root .return {
+  width: 5vw;
+  height: 5vh;
+  margin-left: -90vw;
+  margin-top: -135vh;
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root .text {
+  width: 70vw;
+  height: 70vh;
+  flex-direction: column;
+  margin-bottom: -25vh;
+  line-height: 5.5vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root .text0 {
+  width: 40vw;
+  height: 15vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  margin-top: -150vh;
+  font-size: 4vw;
+  position: absolute;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root .text6 {
+  color: rgb(233, 221, 52);
+}
+#root .text7 {
+  list-style: none;
+  color: rgb(224, 39, 39);
+}
+#root .text10 {
+  color: rgb(233, 221, 52);
+}
+#root .text11 {
+  list-style: none;
+  color: rgb(224, 39, 39);
+}

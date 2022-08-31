@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/workwarning.css">
+        <script src="https://kit.fontawesome.com/7986c55620.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="root">
+            <div class="return">
+                <i class="fa-solid fa-circle-arrow-left fa-3x"></i>
+            </div>
+            <ul class="text">
+                <li class="text0">작업 시 준수사항</li>
+                <li class="text1">작업 및 검수시 분류 기준서 확인 후 작업</li>
+                <li class="text2">분류 기준서에 없는 유형의 계란은 기타로 분류</li>
+                <li class="text3">판정이 어려운 계란은 기타로 분류</li>
+                <li class="text4">바운딩 박스는 스탬프를 이용하고 계란에서 3mm 이상 이격</li>
+                <li class="text5">바운딩 박스 계란 침범하지 않도록 주의</li>
+                <li class="text6">바운딩 박스 간 겹침 허용</li>
+                <li class="text7">바운딩 박스 3*4 작업영역 준수 (좌,우에 1개씩 보이는 영역은 제외)</li>
+                <li class="text8">반려율 30% 이상 시 이미지 할당 중지</li>
+            </ul>
+        </div>
+
+        <script>
+
+            const home = document.querySelector('.return');
+            home.addEventListener('click', function () {
+                let page = './home.html';
+                location.href = page;
+            });
+        </script>
+    </body>
+</html>
