@@ -63,7 +63,7 @@ label[for=trigger] {
 label[for=trigger] span {
   display: block;
   height: 2px;
-  background-color: #fff;
+  background-color: #ccc;
   width: 100%;
   left: 0;
   position: absolute;
@@ -199,7 +199,7 @@ input[id=trigger]:checked + label[for=trigger] {
   height: 7.5vh;
   line-height: 50px;
   text-align: center;
-  margin-top: -395vh;
+  margin-top: -400vh;
   margin-right: -65vw;
   font-size: 0.9vw;
   position: fixed;
@@ -231,21 +231,37 @@ input[id=trigger]:checked + label[for=trigger] {
   transition: ease 1s;
 }
 
+#btn1:hover {
+  color: rgb(138, 138, 138);
+}
+
+#btn2:hover {
+  color: rgb(138, 138, 138);
+}
+
+#btn3:hover {
+  color: rgb(138, 138, 138);
+}
+
+#btn4:hover {
+  color: rgb(138, 138, 138);
+}
+
 .box1 {
   width: 100vw;
   height: 100vh;
-  background: url(./img/box1.jpg);
+  background: url("./img/box1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: initial;
   z-index: 0;
 }
 
 .box2 {
   width: 100vw;
   height: 100vh;
-  background: url("./img/machun1.jpg");
+  background: url("./img/box2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
