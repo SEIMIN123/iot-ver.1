@@ -14,18 +14,9 @@
     border: 1px solid black;
 }
 
-@-webkit-keyframes fade {
-    from {
-        opacity: 0.4;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 @keyframes fade {
     from {
-        opacity: 0.4;
+        opacity: 0.1;
     }
     to {
         opacity: 1;
@@ -38,14 +29,13 @@ ul li {
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
     transition: 0.5s;
     font-weight: bold;
 }
 
 .mtext:hover {
 
-    color: rgb(136, 95, 95);
+    color: rgba(0,0,0,0.6);
     opacity: 1;
 }
 
@@ -100,6 +90,7 @@ label[for=trigger] span {
     position: absolute;
     transition: 0.3s;
     z-index: 1000;
+
 }
 
 label[for=trigger] span:nth-child(1) {
@@ -164,6 +155,9 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side {
     color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+
 }
 
 .side1 {
@@ -177,8 +171,8 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 
 .side1:hover {
-
-    color: rgb(138, 138, 138);
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
 
@@ -195,9 +189,9 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side2:hover {
 
-    color: rgb(138, 138, 138);
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
     opacity: 1;
-
 }
 
 .side3 {
@@ -213,9 +207,9 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side3:hover {
 
-    color: rgb(138, 138, 138);
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
     opacity: 1;
-
 }
 
 .side4 {
@@ -231,7 +225,8 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side4:hover {
 
-    color: rgb(138, 138, 138);
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
 // ------------------------------------
@@ -243,11 +238,13 @@ input[id=trigger]:checked + label[for=trigger] {
     text-align: center;
     margin-top: -401vh;
     font-size: 0.9vw;
+    font-family: 'Noto Sans KR', sans-serif;
     position: fixed;
     z-index: 1;
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
+    color: #fff;
     background-color: rgba(124, 124, 124,0.5);
     cursor: pointer;
 }
@@ -271,6 +268,9 @@ input[id=trigger]:checked + label[for=trigger] {
     display: none;
     font-size: 14px;
     transition: 1s;
+    border-radius: 5px;
+    background-color: rgba(124, 124, 124,0.5);
+
 
 }
 
@@ -279,36 +279,18 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 
 #menu > ul > li > ul > li:hover {
-    transition: ease 1s;
+    border-radius: 5px;
+    transition: ease 0.5s;
+    background-color: rgba(255, 255, 255,0.89);
+    color: #000;
 
-}
 
-#btn1:hover {
-
-    color: rgb(138, 138, 138);
-}
-#btn2:hover {
-
-    color: rgb(138, 138, 138);
-}
-#btn3:hover {
-
-    color: rgb(138, 138, 138);
-}
-#btn4:hover {
-
-    color: rgb(138, 138, 138);
 }
 
 // --------------------------------------------------------
 .box1 {
     width: 100vw;
     height: 100vh;
-    // background: url("./img/box1.jpg");
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-position: center center;
-    // background-attachment: initial;
     z-index: 0;
 
 }
@@ -337,7 +319,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box2 {
     width: 100vw;
     height: 100vh;
-    background: url("../img/machun.jpg");
+    background: url("../img/box2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -348,7 +330,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box3 {
     width: 100vw;
     height: 100vh;
-    background: url("../img/machun2.jpg");
+    background: url("../img/box4.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -371,7 +353,7 @@ input[id=trigger]:checked + label[for=trigger] {
     height: 8vh;
     margin-left: -90vw;
     position: absolute;
-    background: url("./img/hanbat.png");
+    background: url("../img/hanbat.png");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
