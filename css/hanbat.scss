@@ -16,7 +16,9 @@
 
 @keyframes fade {
     from {
+        transform: translate(10px, 10px);
         opacity: 0.1;
+        transition: 0.5s;
     }
     to {
         opacity: 1;
@@ -293,12 +295,19 @@ input[id=trigger]:checked + label[for=trigger] {
     height: 100vh;
     z-index: 0;
 
+    @include flex(flex,center,center);
+
+}
+.img {
+    width: 100vw;
+    height: 100vh;
+    @include flex(flex,center,center);
+
 }
 
 .mySlides {
     width: 100vw;
     height: 100vh;
-    @include flex(flex,center,center);
 }
 
 .slideshow-container {
@@ -308,10 +317,8 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 3s;
 }
 
 // --------------------------------------------------
@@ -319,13 +326,14 @@ input[id=trigger]:checked + label[for=trigger] {
 .box2 {
     width: 100vw;
     height: 100vh;
-    background: url("../img/box2.png");
+    background: url("../img/box5.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 0;
 
 }
+
 
 .box3 {
     width: 100vw;
@@ -350,7 +358,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .hanbat {
 
     width: 10vw;
-    height: 8vh;
+    height: 5vh;
     margin-left: -90vw;
     position: absolute;
     background: url("../img/hanbat.png");
@@ -365,6 +373,6 @@ input[id=trigger]:checked + label[for=trigger] {
     height: 8vh;
     font-size: 0.6vw;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
     @include flex(flex,center,center)
 }
