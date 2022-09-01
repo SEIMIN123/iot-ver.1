@@ -138,7 +138,7 @@ input[id=trigger]:checked + label span:nth-child(3) {
 .sidebar {
     width: 320px;
     height: 100vh;
-    background-color: rgba(250,250,250,0.6);
+    background-color: rgba(124, 124, 124,0.5);
     backdrop-filter: blur(5px);
     position: fixed;
     top: 0;
@@ -163,7 +163,7 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 
 .side {
-    color: rgba(255, 255, 255,0.9);
+    color: rgb(255, 255, 255);
 }
 
 .side1 {
@@ -178,7 +178,7 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side1:hover {
 
-    color: rgb(136, 95, 95);
+    color: rgb(138, 138, 138);
     opacity: 1;
 }
 
@@ -195,7 +195,7 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side2:hover {
 
-    color: rgb(136, 95, 95);
+    color: rgb(138, 138, 138);
     opacity: 1;
 
 }
@@ -213,7 +213,7 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side3:hover {
 
-    color: rgb(136, 95, 95);
+    color: rgb(138, 138, 138);
     opacity: 1;
 
 }
@@ -231,7 +231,7 @@ input[id=trigger]:checked + label[for=trigger] {
 
 .side4:hover {
 
-    color: rgb(136, 95, 95);
+    color: rgb(138, 138, 138);
     opacity: 1;
 }
 // ------------------------------------
@@ -337,7 +337,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box2 {
     width: 100vw;
     height: 100vh;
-    background: url("./img/box2.png");
+    background: url("../img/machun.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -348,7 +348,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box3 {
     width: 100vw;
     height: 100vh;
-    background: url("./img/box3.png");
+    background: url("../img/machun2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -358,7 +358,7 @@ input[id=trigger]:checked + label[for=trigger] {
 .box4 {
     width: 100vw;
     height: 100vh;
-    background: url("./img/machun3.jpg");
+    background: url("../img/kokobot.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
