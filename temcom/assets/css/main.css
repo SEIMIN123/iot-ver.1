@@ -3168,11 +3168,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #ffffff;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #ffffff;
 			}
 
 		#header nav {
@@ -3222,7 +3222,7 @@ input, select, textarea {
 						position: absolute;
 						right: 1.5em;
 						top: 0;
-						vertical-align: middle;
+						vertical-align:middle;
 						width: 24px;
 					}
 
@@ -3278,7 +3278,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #000000;
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3349,7 +3349,7 @@ input, select, textarea {
 					}
 
 						#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
-							right: 0.75em;
+							right: .75em;
 						}
 
 						#header nav a[href="#menu"]:last-child {
@@ -3382,7 +3382,7 @@ input, select, textarea {
 				}
 
 				#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
-					width: 4em;
+					width: 5rem;
 					right: 0;
 				}
 
