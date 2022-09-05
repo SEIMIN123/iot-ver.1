@@ -2811,7 +2811,7 @@ input, select, textarea {
 			}
 
 			.tiles article:hover:before {
-				opacity: 0.3;
+				opacity: 0.5;
 			}
 
 			.tiles article.is-transitioning {
@@ -3495,7 +3495,7 @@ input, select, textarea {
 		#banner.major {
 			height: 75vh;
 			min-height: 30em;
-			max-height: 50em;
+			max-height: 70em;
 		}
 
 			#banner.major.alt {
@@ -3508,12 +3508,12 @@ input, select, textarea {
 
 		#banner.style2:after {
 			background-color: #a29bc4;
-			background-image: url(../../images/box1.png);
+			background-image: url(../../images/logo.png);
 			background-attachment: fixed;
-			background-position: center;
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			filter: blur(3px);
+			filter: blur(5px);
 		}
 
 		#banner.style3:after {
