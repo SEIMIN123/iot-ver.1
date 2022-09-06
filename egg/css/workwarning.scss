@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin flex ($d, $j, $a) {
+
+    display: ($d);
+    justify-content: ($j);
+    align-items: ($a);
+}
+
+@mixin border {
+    border: 1px solid black;
+}
+
+#root {
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    @include flex(flex,center,center);
+
+.return {
+
+    width: 5vw;
+    height: 5vh;
+    margin-left: -43vw;
+    margin-top: -85vh;
+    position: absolute;
+    color: #fff;
+    cursor: pointer;
+    @include flex(flex,center,center);
+
+}    
+
+.text {
+
+    width: 45vw;
+    height: 78vh;
+    flex-direction: column;
+    margin-bottom: -15vh;
+    line-height: 5vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 10px;
+    @include flex(flex,center,center);
+
+    }
+
+.text0 {
+
+    width: 15vw;
+    height: 10vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    margin-top: -100vh;
+    font-size: 2vw;
+    position: absolute;
+    @include border();
+    @include flex(flex,center,center);
+
+}
+
+}

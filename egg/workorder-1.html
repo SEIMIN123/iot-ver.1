@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/workorder-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7986c55620.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="return">
+        <i class="fa-solid fa-circle-arrow-left fa-3x"></i>
+    </div>
+
+    <div class="divTable minimalistBlack">
+        <div class="divTableHeading">
+            <div class="divTableRow">
+                <div class="divTableHead">대분류</div>
+                <div class="divTableHead">소분류</div>
+                <div class="divTableHead">소분류 우선순위</div>
+            </div>
+        </div>
+        <div class="divTableBody">
+            <div class="divTableRow">
+                <div class="divTableCell">크랙</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">완전크랙 > 원형크랙 > 일자형크랙 > 거미줄형크랙 > 파형크랙 > 잠재파형크랙 > 위.아래크랙 > 미세크랙</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">혈반</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">먹통 > 혈반.육반 > 알끈 > 거품
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">기형</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">심한주름기형>곰보
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">혈반</div>
+                <div class="divTableCell">중앙기실</div>
+                <div class="divTableCell"></div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">기형</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">일반기형 > 외관기형 > 백색줄기형
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">잠재크랙</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">초미세 잠재크랙 > 완전잠재크랙 > 잠재파형 > 미세잠재크랙
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">이물질</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">닭분변 > 계란껍질 > 깃털
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">탈색</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">중앙탈색 > 원형탈색 > 위.아래탈색 > 외관변색 > 부분탈색 > 백색탈색
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">이물질</div>
+                <div class="divTableCell">점박이</div>
+                <div class="divTableCell">시각적으로 잘구분 되지 않는 점박이 제외
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">정상</div>
+                <div class="divTableCell">위.아래 기실</div>
+                <div class="divTableCell">시각적으로 보이는 위.아래 기실은 전부 포함
+                </div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">탈색</div>
+                <div class="divTableCell">얇은 난각</div>
+                <div class="divTableCell"></div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">탈색</div>
+                <div class="divTableCell">흰색 점박이</div>
+                <div class="divTableCell"></div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell">정상</div>
+                <div class="divTableCell">-</div>
+                <div class="divTableCell">검정 > 정상 > 백색란
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="warning">2가지 이상 섞여 있을 경우 크랙+, 탈색+, 기형+으로 <br>구분하거나 위 기준대로 작업해도 상관없음</h1>
+
+    <script>
+
+        const home = document.querySelector('.return');
+        home.addEventListener('click', function () {
+            let page = './home.html';
+            location.href = page;
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/workpay.css">
+    <script src="https://kit.fontawesome.com/7986c55620.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+        <div class="return">
+            <i class="fa-solid fa-circle-arrow-left fa-3x"></i>
+        </div>
+        <ul class="text">
+            <li class="text0">작업 비용산정</li>
+            <div class="text1">가공(라벨링) 작업 비용정산</div>
+            <li class="text2">월 작업수량 4,000장 기준 (1,200,000원) - 기타소득세 8.8% 공제</li>
+            <li class="text3">월 작업수량 4,000장 초과 시 장당 250원 계산 (8,000장 수량제한)</li>
+            <li class="text4">월 4,000장 작업 미만 시 (계란 가공 수량으로 정산 : 정상 20원 / 불량 30원)</li>
+            <li class="text5">8월 작업 제한수량 8,000장 (초과시 비용정산 안됨)</li>
+            <li class="text6">월 작업수량 4,000장 미만 시 정산없이 이월 요청가능 (신청)</li>
+            <li class="text7">(이월 시 4,000장 초과 후 정산요청 가능)</li>
+            <li class="text8">4,000장 초과 후 재작업 완료 시 정산요청 가능</li>
+            <li class="text9">재작업에 대한 미처리시 작업 수량에서 제외</li>
+            <li class="text10">8월 작업완료일 (8월 30일) - 이후 반려분에 대한 수정가능 (9월3일 자정)</li>
+            <li class="text11">9월 4일 자정 검수완료 / 9월 5일 정산진행</li> 
+        </ul>
+    </div>
+
+    <script>
+
+        const home = document.querySelector('.return');
+        home.addEventListener('click', function () {
+            let page = './home.html';
+            location.href = page;
+        });
+    </script>
+</body>
+</html>
