@@ -2542,7 +2542,7 @@ input, select, textarea {
 		.button:hover,
 		.button:active {
 			box-shadow: inset 0 0 0 2px #9bc3ff;
-			color: #ffffff;
+			color: #9bc3ff;
 		}
 
 		input[type="submit"]:active,
@@ -2686,7 +2686,7 @@ input, select, textarea {
 			.button.primary:hover,
 			.button.primary:active {
 				background-color: #ffffff;
-				color: #ffffff;
+				color: #569cdd;
 			}
 
 			input[type="submit"].primary:active,
@@ -3171,10 +3171,12 @@ input, select, textarea {
 
 			#header .logo:hover strong {
 				background-color: #ffffff;
+				color: #4273bb;
 			}
 
 			#header .logo:active strong {
 				background-color: #ffffff;
+				color: #4273bb;
 			}
 
 		#header nav {
@@ -3279,8 +3281,8 @@ input, select, textarea {
 				color: #6fc3df;
 			}
 
-			#header.alt.style2 .logo strong {
-				color: #000000;
+			#header.alt.style2 .logo .strong {
+				color: #4273bb;
 			}
 
 			#header.alt.style3 .logo strong {
