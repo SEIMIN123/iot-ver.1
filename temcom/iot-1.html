@@ -14,7 +14,6 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/7986c55620.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
@@ -205,6 +204,7 @@
 							<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li class="up"><a class="icon alt fa-arrow-alt-circle-up"><span class="label"></span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>TEL : +82 042-931-9307 / FAX : +82 042-931-9307 / E-Mail : jjhcms@daum.net
@@ -228,12 +228,12 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-				const up = document.getElementById('up');
+				const up = document.querySelector('.up');
 				up.addEventListener('click', () => {
-					scrollTo({
-        			top: 0,
-        			behavior: "smooth"
-    				});
+				    scrollTo({
+				        top: 0,
+				        behavior: "smooth"
+				    });
 				});
 			</script>
 

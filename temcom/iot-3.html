@@ -522,9 +522,7 @@ print 'It took ' + i + ' iterations to sort the deck.';
 								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-
+								<li class="up"><a class="icon alt fa-arrow-alt-circle-up"><span class="label"></span></a></li>
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
@@ -545,12 +543,12 @@ print 'It took ' + i + ' iterations to sort the deck.';
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-				const up = document.getElementById('up');
+				const up = document.querySelector('.up');
 				up.addEventListener('click', () => {
-					scrollTo({
-        			top: 0,
-        			behavior: "smooth"
-    				});
+				    scrollTo({
+				        top: 0,
+				        behavior: "smooth"
+				    });
 				});
 			</script>
 
