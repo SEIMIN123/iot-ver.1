@@ -3731,15 +3731,9 @@ input, select, textarea {
 
 /* Footer */
 
-	#up {
-
-		width: 3vw;
-		height: 5vh;
-		position: absolute;
-		left: 95vw;
-		margin-top: -13vh;
+	.up {
 		cursor: pointer;
-	}	
+	}
 
 	#footer .copyright {
 		font-size: 0.7em;
