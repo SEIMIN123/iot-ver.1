@@ -160,7 +160,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: rgb(157, 188, 245); !important;
+			color: rgb(168, 193, 240) !important;
 		}
 
 		a:active {
@@ -2685,7 +2685,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #a1c7f1;
+				background-color: #ffffff;
 				color: #ffffff;
 			}
 
@@ -2694,7 +2694,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53a1fb;
+				background-color: #ffffff;
 
 			}
 
@@ -3010,6 +3010,7 @@ input, select, textarea {
 					max-width: 100%;
 					width: 65em;
 				}
+
 
 			.spotlights > section:nth-child(2n) {
 				-moz-flex-direction: row-reverse;
