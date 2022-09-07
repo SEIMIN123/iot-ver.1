@@ -1,137 +1,212 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HANBAT IOT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./temcom/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="./temcom/assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>계란분류 기준안</title>
-    <!-- css -->
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/font.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-</head>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>HANBAT</strong> <span>IOT</span></a>
+						<nav>
+							<a href="#menu"></a>
+						</nav>
+					</header>
 
-<body>
-    <header>
-        <ul class="menu">
-            <li><a href="./workwarning.html">준수사항</a></li>
-            <li><a href="./workpay.html">비용산정</a></li>
-            <li><a href="./workorder-1.html">우선순위</a></li>
-        </ul>
-    </header>
-    <div class="container">
-        <h1>계란분류 기준</h1>
-        <p>*클릭 시 해당 분류 페이지로 이동</p>
-        <ul class="table">
-            <li>
-                <p>정상란</p>
-                <ul>
-                    <li><a href="category/normal01.html"onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">정상란</a></li>
-                    <li><a href="category/normal02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">위.아래기실</a></li>
-                    <li><a href="category/normal03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">검정란</a></li>
-                    <li><a href="category/normal04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">백색란</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>혈반</p>
-                <ul>
-                    <li><a href="category/blood01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">혈반.육반</a></li>
-                    <li><a href="category/blood02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">중앙기실</a></li>
-                    <li><a href="category/blood03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">알끈</a></li>
-                    <li><a href="category/blood04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">거품</a></li>
-                    <li><a href="category/blood05.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">먹통</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>크랙</p>
-                <ul>
-                    <li><a href="category/crack01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">완전크랙</a></li>
-                    <li><a href="category/crack02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">일자형크랙</a></li>
-                    <li><a href="category/crack03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">원형크랙</a></li>
-                    <li><a href="category/crack04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">위아래크랙</a></li>
-                    <li><a href="category/crack05.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">거미줄형크랙</a></li>
-                    <li><a href="category/crack06.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">잠재파형크랙</a></li>
-                    <li><a href="category/crack07.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">미세크랙</a></li>
-                    <li><a href="category/crack08.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">파형크랙</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>탈색</p>
-                <ul>
-                    <li><a href="category/bleach01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">흰색점박이</a></li>
-                    <li><a href="category/bleach02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">백색탈색</a></li>
-                    <li><a href="category/bleach03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">원형탈색</a></li>
-                    <li><a href="category/bleach04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">얇은난각</a></li>
-                    <li><a href="category/bleach05.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">중앙탈색</a></li>
-                    <li><a href="category/bleach06.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">위아래탈색</a></li>
-                    <li><a href="category/bleach07.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">부분탈색</a></li>
-                    <li><a href="category/bleach08.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">외관변색</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>이물질</p>
-                <ul>
-                    <li><a href="category/foreig01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">계란껍질</a></li>
-                    <li><a href="category/foreig02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">깃털</a></li>
-                    <li><a href="category/foreig03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">닭분변</a></li>
-                    <li><a href="category/foreig04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">점박이</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>기형</p>
-                <ul>
-                    <li><a href="category/monst01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">일반기형</a></li>
-                    <li><a href="category/monst02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">심한기형</a></li>
-                    <li><a href="category/monst03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">외형기형</a></li>
-                    <li><a href="category/monst04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">백색줄기형</a></li>
-                    <li><a href="category/monst05.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">곰보</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>잠재크랙</p>
-                <ul>
-                    <li><a href="category/poten01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">완전잠재크랙</a></li>
-                    <li><a href="category/poten02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">미세잠재크랙</a></li>
-                    <li><a href="category/poten03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">초미세잠재크랙</a></li>
-                    <li><a href="category/poten04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">잠재파형</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>크랙판정</p>
-                <ul>
-                    <li><a href="category/crplus01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">크랙 + 혈반</a></li>
-                    <li><a href="category/crplus02.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">크랙 + 탈색</a></li>
-                    <li><a href="category/crplus03.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">크랙 + 기형</a></li>
-                    <li><a href="category/crplus04.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">크랙 + 이물질</a></li>
-                    <li><a href="category/crplus05.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">기실 + 혈반</a></li>
-                    <li><a href="category/crplus06.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">기실 + 탈색</a></li>
-                    <li><a href="category/crplus07.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">기실 + 기형</a></li>
-                    <li><a href="category/crplus08.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">기실 + 이물질</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>탈색판정</p>
-                <ul>
-                    <li><a href="category/blplus01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">탈색+</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>기형판정</p>
-                <ul>
-                    <li><a href="category/moplus01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">기형+</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>기타</p>
-                <ul>
-                    <li><a href="category/etcetc01.html" onclick="window.open(this.href,'','width=1000,height=600,top=200,left=440,scrollbars=no'); return false;">기타</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</body>
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="./index.html">Home</a></li>
+							<li><a href="./temcom/landing.html">기업정보</a></li>
+							<li><a href="./temcom/generic.html">제품</a></li>
+							<li><a href="./temcom/elements.html">지원</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">CONNECT</a></li>
+							<li><a href="#" class="button fit">LOACTION</a></li>
+						</ul>
+					</nav>
 
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>미래를 생각합니다.
+								</h1>
+							</header>
+							<div class="content">
+								<p> 주식회사 한밭아이오티는 축산분야  AI 솔루션 개발 전문업체로 <br>세계 제일의
+									축산 플랫폼 서비스 구현과 <br>AI 솔루션 개발로 축산업의 미래를 설계하며 성장하는 기업입니다.
+									</p>
+								<ul class="actions">
+									<li><a href="#two" class="button next scrolly">둘러보기</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="./temcom/landing.html" class="link">회사소개</a></h3>
+										<p>인사말</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="./temcom/landing.html"class="link">기업정보</a></h3>
+										<p>사업현황.비전.기술</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="./temcom/landing.html"class="link">제품</a></h3>
+										<p>AI FARM.AI Machine vision</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="./temcom/landing.html"class="link">지원</a></h3>
+										<p>공지사항.제품문의.실시간 가격</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="./temcom/landing.html"class="link">홍보</a></h3>
+										<p>미디어.기사.광고</p>
+
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="./temcom/landing.html"class="link">오시는길</a></h3>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>국내 최초<br>이력기반 양계농장<br> 이력통합관리시스템 개발</h2>
+									</header>
+									<p>한밭아이오티는 스마트 축산분야에 필요한 소프트웨어 개발과 인공지능, 빅데이터 기반의 지능형 프로세스를 선도하는 기업입니다.<br>또한 스마트 축사의 자동화를 넘어서 인공지능, 빅데이터 기술을 기반으로 각 농장에 맞는 최적의 생산성 분석, 환경 분석, 질병예측분석 등<br>축산농가의 편의성 향상과 손실 방지 및 이익증대에 기여하고 있습니다.</p>
+									<ul class="actions">
+										<li><a href="./temcom/landing.html" class="button next">KOKOBOT</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="SUMMIT" class="primary" /></li>
+										<li><input type="reset" value="CLEAR" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">jjhcms@daum.net</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>TEL.</h3>
+										<span>(+82) 042-931-9307
+										</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>대전광역시 동구 계족로 151, 지식산업센터</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>TEL : +82 042-931-9307 / FAX : +82 042-931-9307 / E-Mail : jjhcms@daum.net
+									<br>Copyright 2018 © hanbat iot., Co Ltd. All rights reserved.</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="./temcom/assets/js/jquery.min.js"></script>
+			<script src="./temcom/assets/js/jquery.scrolly.min.js"></script>
+			<script src="./temcom/assets/js/jquery.scrollex.min.js"></script>
+			<script src="./temcom/assets/js/browser.min.js"></script>
+			<script src="./temcom/assets/js/breakpoints.min.js"></script>
+			<script src="./temcom/assets/js/util.js"></script>
+			<script src="./temcom/assets/js/main.js"></script>
+
+	</body>
 </html>
