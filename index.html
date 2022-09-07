@@ -9,6 +9,8 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/7986c55620.js" crossorigin="anonymous"></script>
+
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -195,8 +197,13 @@
 									<br>Copyright 2018 © hanbat iot., Co Ltd. All rights reserved.</a></li>
 							</ul>
 						</div>
+						
+						<div id="up">
+							<i class="fa-sharp fa-solid fa-circle-chevron-up fa-2x"></i>
+						</div>
 					</footer>
-
+					
+					
 			</div>
 
 		<!-- Scripts -->
@@ -207,6 +214,15 @@
 			<script src="./temcom/assets/js/breakpoints.min.js"></script>
 			<script src="./temcom/assets/js/util.js"></script>
 			<script src="./temcom/assets/js/main.js"></script>
+			<script>
+				const up = document.getElementById('up');
+				up.addEventListener('click', () => {
+					scrollTo({
+        			top: 0,
+        			behavior: "smooth"
+    				});
+				});
+			</script>
 
 	</body>
 </html>
