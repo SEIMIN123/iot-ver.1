@@ -2207,12 +2207,12 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 90vw;
+			width: 100%;
+			}
+
+			.iot-1-1 {
 				margin-top: -7vh;
 				right: -7vw;
-				display: flex;
-				justify-content: center;
-				align-items: center;
 				position: absolute;
 			}
 
@@ -2220,17 +2220,14 @@ input, select, textarea {
 
 				.image.main {
 				margin: 1.5em 0;
+				
 				}
 
-				.image.main img {
-					width: 130vw;
-					top: -5vh;
-					right: 2vw;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					position: absolute;
-
+				.iot-1-1 {
+					width: 100vw;
+					top: -2vh;
+					right: 5vw;
+						
 				}
 
 			}
@@ -2817,7 +2814,7 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
-				background-color: rgba(28, 83, 165, 0.8);
+				background-color: rgba(31, 77, 146, 0.8);
 				content: '';
 				display: block;
 				height: 100%;
@@ -2852,25 +2849,30 @@ input, select, textarea {
 				background-color: #6fc3df;
 				background-image: url(../../images/company.jpeg);
 				background-size: cover;
+				background-position: center center;
+
 			}
 
 			.tiles article:nth-child(6n - 4):before {
 				background-color: #8d82c4;
 				background-image: url(../../images/company1.jpg);
 				background-size: cover;
+				background-position: center center;
 
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #000000;
 				background-image: url(../../images/company2.png);
 				background-size: cover;
+				background-position: center center;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
 				background-color: #e7b788;
 				background-image: url(../../images/company3.jpg);
 				background-size: cover;
+				background-position: center center;
 				filter: blur(2px);
 			}
 
@@ -2878,13 +2880,14 @@ input, select, textarea {
 				background-color: #8ea9e8;
 				background-image: url(../../images/company5.jpg);
 				background-size: cover;
-				
+				background-position: center center;
 			}
 
 			.tiles article:nth-child(6n):before {
 				background-color: #87c5a4;
 				background-image: url(../../images/company4.webp);
 				background-size: cover;
+				background-position: center center;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2894,6 +2897,8 @@ input, select, textarea {
 				height: 30vh;
 				max-height: 30em;
 				min-height: 20em;
+				background-size: cover;
+				background-position: center center;
 			}
 
 		}
