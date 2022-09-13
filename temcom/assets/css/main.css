@@ -2215,10 +2215,19 @@ input, select, textarea {
 			}
 
 			.iot-1-1 {
-				width: 85%;
-				margin-top: -10vh;
-				right: 5vw;
+				width: 95%;
+				top: 23vh;
+				right: 10vw;
 				position: absolute;
+			}
+
+			.iot-4 {
+				width: 100%;
+			}
+
+			.iot-4-1 {
+				width: 100%;
+
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2230,8 +2239,8 @@ input, select, textarea {
 
 				.iot-1-1 {
 					width: 150%;
-					margin-top: -14vh;
-					margin-right: 1vw;
+					top: 9vh;
+					right: 5vw;
 				}
 			}
 
@@ -3541,16 +3550,24 @@ input, select, textarea {
 
 		#banner.style2:after {
 			background-color: #a29bc4;
-			background-image: url(../../images/logo.png);
+			background-image: url("../../images/logo.png");
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			filter: brightness(50%);
+			border-bottom: 0 !important;
+			height: 60vh;
+			filter: blur(3px) brightness(90%);
 		}
 
 		#banner.style3:after {
 			background-color: #ec8d81;
+			background-image: url(../../images/box1.png);
+			background-attachment: fixed;
+			background-position: center -30vh;
+			background-repeat: no-repeat;
+			background-size: cover;
+			filter: blur(2px) brightness(70%);
 		}
 
 		#banner.style4:after {
