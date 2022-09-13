@@ -2210,9 +2210,14 @@ input, select, textarea {
 			width: 100%;
 			}
 
+			.iot-1 {
+				width: 100%;
+			}
+
 			.iot-1-1 {
-				margin-top: -7vh;
-				right: -7vw;
+				width: 100%;
+				margin-top: -10vh;
+				right: 3vw;
 				position: absolute;
 			}
 
@@ -2224,12 +2229,10 @@ input, select, textarea {
 				}
 
 				.iot-1-1 {
-					width: 100vw;
-					top: -2vh;
-					right: 5vw;
-						
+					width: 150%;
+					margin-top: -14vh;
+					margin-right: 1vw;
 				}
-
 			}
 
 /* List */
