@@ -9,8 +9,11 @@
 		<title>HANBAT IOT</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 
@@ -18,7 +21,8 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
 						<a href="../index.html" class="logo"><strong>HANBAT</strong> <span>IOT</span></a>
 						<nav>
 							<a href="#menu"></a>
@@ -39,19 +43,76 @@
 						</ul>
 					</nav>
 
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>제품</h1>
+							</header>
+							<div class="content">
+								<p>AI FARM / AI MACHINE VISION</p>
+							</div>
+						</div>
+					</section>
+
 				<!-- Main -->
-					<div id="main" class="alt">
+					<div id="main">
 
 						<!-- One -->
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>제품</h1>
-										<p>AI FARM / AI MACHINE VISION</p>
+										<h2>축산업의 미래를 바라봅니다.</h2>
 									</header>
-									<span class="image main"><img src="images/box1.png" alt="" /></span>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi harum, aut quidem, distinctio quod totam placeat assumenda provident eius repellendus fugit consequuntur atque laborum recusandae accusantium impedit sapiente adipisci blanditiis.</p>
+									<p>AI 기술 딥러닝을 적용하여 계란 AI 품질검사 및 제품 카운팅부터 AI 영상 인식, 가축 방역관리, 지능형 축사관리, HACCP 관리와 <br>생산 자동화 로봇까지 관리가 가능한 기술을 개발하고 있습니다.</p>
 								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="iot-2-1.html" class="image">
+										<img src="images/business.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>AI FARM</h3>
+											</header>
+											<p>웹.앱 기반 프로그램 개발, 윈도우 기반 응용 프로그램 개발 등 <br>다양한 플랫폼 개발과 시스템 개발과 자동화 기기의 설계 및 제작을 통해 생산.경영 자동화를 선도합니다.
+
+											</p>
+											<ul class="actions">
+												<li><a href="iot-2-1.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="iot-2-2.html" class="image">
+										<img src="images/vision.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>AI MACHINE VISION</h3>
+											</header>
+											<p>빅데이터 분석,인공지능 기술을 활용한
+												양계농장의 체계적인 관리를 통해
+												생산성 향상과 농가의 소득 증대에 기여하고
+												<br>소비자 먹거리 안전문제 해결에 앞장섭니다.
+											</p>
+											<ul class="actions">
+												<li><a href="iot-2-2.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								
 							</section>
 
 					</div>
@@ -109,22 +170,26 @@
 					</section>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li class="up"><a class="icon alt fa-arrow-alt-circle-up"><span class="label"></span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>TEL : +82 042-931-9307 / FAX : +82 042-931-9307 / E-Mail : jjhcms@daum.net
-									<br>Copyright 2018 © hanbat iot., Co Ltd. All rights reserved.</a></li>
-							</ul>
-						</div>
-					</footer>
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li class="up"><a class="icon alt fa-arrow-alt-circle-up"><span class="label"></span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>TEL : +82 042-931-9307 / FAX : +82 042-931-9307 / E-Mail : jjhcms@daum.net
+								<br>Copyright 2018 © hanbat iot., Co Ltd. All rights reserved.</a></li>
+						</ul>
+					</div>
 
-			</div>
+					<div id="up">
+						<i class="fa-sharp fa-solid fa-circle-chevron-up fa-2x"></i>
+					</div>
+				</footer>
+
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
