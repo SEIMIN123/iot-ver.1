@@ -3330,7 +3330,7 @@ input, select, textarea {
 			position: absolute;
 		}
 
-			#header.alt.style1 .logo strong {
+			/* #header.alt.style1 .logo strong {
 				color: #6fc3df;
 			}
 
@@ -3352,7 +3352,7 @@ input, select, textarea {
 
 			#header.alt.style6 .logo strong {
 				color: #87c5a4;
-			}
+			} */
 
 		body.is-preload #header.alt {
 			opacity: 0;
@@ -3561,9 +3561,9 @@ input, select, textarea {
 				opacity: 0.75;
 			}
 
-		#banner.style1:after {
+		/* #banner.style1:after {
 			background-color: #6fc3df;
-		}
+		} */
 
 		#banner.style2:after {
 			/* background-color: #a29bc4; */
@@ -3587,7 +3587,7 @@ input, select, textarea {
 			filter: blur(2px) brightness(70%);
 		}
 
-		#banner.style4:after {
+		/* #banner.style4:after {
 			background-color: #e7b788;
 		}
 
@@ -3597,7 +3597,7 @@ input, select, textarea {
 
 		#banner.style6:after {
 			background-color: #87c5a4;
-		}
+		} */
 
 		body.is-preload #banner:after {
 			opacity: 1.0;
