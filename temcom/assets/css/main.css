@@ -1789,6 +1789,7 @@ input, select, textarea {
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
 				width: 100%;
+
 			}
 
 		header.major > p {
@@ -3047,6 +3048,11 @@ input, select, textarea {
 					width: 65em;
 				}
 
+				.inner1 { 
+
+					width: 70%;
+					height: auto;
+				}
 
 			.spotlights > section:nth-child(2n) {
 				-moz-flex-direction: row-reverse;
@@ -3067,6 +3073,17 @@ input, select, textarea {
 
 			.spotlights > section > .image {
 				width: 40%;
+			}
+
+			.inner1 { 
+
+				width: 100%;
+			}
+
+			.mvideo {
+
+				width: 100%;
+				height: auto;
 			}
 
 			.spotlights > section > .content {
@@ -3549,19 +3566,19 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #a29bc4;
+			/* background-color: #a29bc4; */
 			background-image: url("../../images/logo.png");
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			border-bottom: 0 !important;
-			height: 60vh;
-			filter: blur(3px) brightness(90%);
+			height: 100%;
+			filter: brightness(40%);
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			/* background-color: #ec8d81; */
 			background-image: url(../../images/box1.png);
 			background-attachment: fixed;
 			background-position: center -30vh;
@@ -3673,6 +3690,7 @@ input, select, textarea {
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
+				z-index: 999;
 			}
 
 				@media screen and (max-width: 736px) {
