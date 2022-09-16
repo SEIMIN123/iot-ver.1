@@ -3812,12 +3812,12 @@ input, select, textarea {
 
 		#banner.style3:after {
 			/* background-color: #ec8d81; */
-			background-image: url(../../images/box1.png);
+			background-image: url(../../images/box1-1.png);
 			background-attachment: fixed;
-			background-position: center -30vh;
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			filter: blur(2px) brightness(70%);
+			filter: blur(1px) brightness(75%);
 		}
 
 		#banner.style4:after {
