@@ -29,8 +29,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+body::-webkit-scrollbar {
+
+	width: 0;
+	display: none;
+}
+
 body {
 	line-height: 1;
+	
 }
 
 ol, ul {
@@ -1793,7 +1800,7 @@ input, select, textarea {
 			}
 
 		header.major > p {
-			font-size: 1em;
+			font-size: 0.8em;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
