@@ -2284,6 +2284,8 @@ input, select, textarea {
 					justify-content: center;
 					align-items: center;
 					transition: all 0.3s ease-in-out;
+					z-index: 0;
+
 				}
 				.pic2:hover {
 					transform: scale(1.7);
