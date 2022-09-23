@@ -2297,7 +2297,7 @@ input, select, textarea {
 			}
 
 			.iot-1-1 {
-				width: 95%;
+				width: 90%;
 				top: 23vh;
 				right: 10vw;
 				position: absolute;
@@ -3429,6 +3429,13 @@ input, select, textarea {
 				width: 40%;
 			}
 
+			.iot-1-1 {
+				width: 100%;
+				top: 8vh;
+				right: 5vw;
+				position: absolute;
+			}
+
 			.inner1 { 
 
 				width: 100%;
@@ -3923,6 +3930,12 @@ input, select, textarea {
 				white-space: nowrap;
 				width: 5em;
 			}
+			
+				.iot-1-1 {
+					width: 150%;
+					top: 9vh;
+					right: 5vw;
+				}
 
 				#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
 					right: 0;
@@ -3933,6 +3946,7 @@ input, select, textarea {
 					width: 5rem;
 					right: 0;
 				}
+
 
 		}
 
