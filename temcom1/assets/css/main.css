@@ -2829,7 +2829,15 @@ input, select, textarea {
 					right: 1em;
 				}
 
+				h2 {
+					font-size: 1em;
+					margin: 0 0 5em 0;
+				}
 
+				#menu > .inner > ul >li a {
+
+					font-size: 1em;
+				}
 
 		}
 
@@ -3321,6 +3329,7 @@ input, select, textarea {
 					line-height: 1.4em;
 
 				}
+				
 
 		}
 
