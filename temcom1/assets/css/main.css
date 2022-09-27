@@ -129,7 +129,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -148,7 +147,6 @@ input, select, textarea {
 		text-decoration: none;
 		color: #4390e7;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
-		transition: 0.5s;
 		font-size: 1.2vw;
 
 	}
@@ -202,7 +200,7 @@ input, select, textarea {
 
 			h1 {
 				font-size: 2em;
-				margin: 0 0 1em 0;
+				margin: 0 0 2em 0;
 			}
 
 		}
@@ -2741,15 +2739,15 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #42c2e9;
+				background-color: #789199;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #15364d;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #d8d3bb;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2799,7 +2797,39 @@ input, select, textarea {
 				.tiles article {
 					width: calc(33.33333% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
+					content: '';
 				}
+
+				.tiles article > a {
+
+					font-size: 8vw;
+				}
+
+				.tiles article > a .content > p {
+
+					font-size: 5vw;
+				}
+				.tiles article > .image {
+
+					width: 100%;
+					height: auto;
+				}
+
+				#header .logo {
+					top: -10em;
+					position: relative;
+
+				}
+
+				#header .logo > * {
+
+					font-size: 2.5em;
+					letter-spacing: 0.15em;
+					position: relative;
+					right: 1em;
+				}
+
+
 
 		}
 
@@ -2823,7 +2853,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
+					width: calc(30% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -2847,12 +2877,14 @@ input, select, textarea {
 					margin: 1.25em 0 0 0;
 				}
 
+
+
 		}
 
 /* Header */
 
 	#header {
-		padding: 2.5em 0 0.1em 0 ;
+		padding: 8.5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2895,7 +2927,7 @@ input, select, textarea {
 				display: -ms-flex;
 				display: flex;
 				-moz-align-items: center;
-				-webkit-align-items: center;
+				-w7ebkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
 				list-style: none;
@@ -2977,6 +3009,7 @@ input, select, textarea {
 				#header nav {
 					right: 0.5em;
 					top: 0.5em;
+					font-size: 4vw;
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
@@ -3133,11 +3166,17 @@ input, select, textarea {
 					padding: 2.75em 1.5em;
 				}
 
+				#menu > .inner > ul > li{
+
+					margin-bottom: 1.3em;
+				}
+
 				#menu > .close {
 					top: 0.5em;
 					left: -4.25em;
 					width: 4.25em;
 					text-indent: 4.25em;
+					
 				}
 
 					#menu > .close:before, #menu > .close:after {
@@ -3190,9 +3229,9 @@ input, select, textarea {
 
 	#footer {
 		width: 100%;
-		height: 20vh;
+		height: auto;
 		padding: 4em 0 0em 0 ;
-		background-color: #f6f6f6;
+		background-color: rgba(144, 144, 144, 0.075)
 	}
 
 		#footer > .inner {
@@ -3227,7 +3266,6 @@ input, select, textarea {
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(88, 88, 88, 0.5);
@@ -3265,6 +3303,23 @@ input, select, textarea {
 				#footer > .inner section:nth-child(2) {
 					width: calc(33% - 1.25em);
 					margin-left: 1.25em;
+				}
+
+				ul.icons li {
+
+					width: 20vw;
+				}
+
+				.icon.style2 {
+
+					width: 8em;
+					height: 8em;
+				}
+
+				.icon.style2:before {
+					font-size: 5em;
+					line-height: 1.4em;
+
 				}
 
 		}
