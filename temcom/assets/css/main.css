@@ -2930,6 +2930,8 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
+		margin: 0.1em;
+		width: 100%;
 	}
 
 		.tiles + * {
@@ -2954,12 +2956,17 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
-			max-height: 40em;
-			min-height: 23em;
+			width: 20%;
+			min-height: 15em;
+			max-height: 20em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			margin: 0.3em;
+			border-radius: 10px;
+			box-shadow: 0 0 0.35em 0 rgba(255, 255, 255, 0.20);
+			left: 9em;
+
+			
 		}
 
 			.tiles article .image {
@@ -2972,7 +2979,11 @@ input, select, textarea {
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				font-size: 1.1em;
+			}
+
+			.tiles article p {
+				font-size: 0.6em;
 			}
 
 				.tiles article h3 a:hover {
@@ -3034,7 +3045,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 57.9%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
@@ -3085,12 +3096,16 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.tiles article {
-				padding: 4em 3em 2em 3em ;
+				padding: 5em 3em 2em 3em ;
 				height: 30vh;
 				max-height: 30em;
 				min-height: 20em;
 				background-size: cover;
 				background-position: center center;
+				margin: 0.5em;
+				position: relative;
+				margin-left: -9em;
+				border-radius: 30px;
 			}
 
 			
@@ -4015,7 +4030,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/logo.png");
+		background-image: url("../../images/20180810161039434.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4115,7 +4130,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 50vh;
 			min-height: 30em;
 			max-height: 70em;
 		}
@@ -4130,7 +4145,7 @@ input, select, textarea {
 
 		#banner.style2:after {
 			/* background-color: #a29bc4; */
-			background-image: url("../../images/logo.png");
+			background-image: url("../../images/20180810161039434.jpg");
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -4237,7 +4252,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #1e2235
 	}
 
 
