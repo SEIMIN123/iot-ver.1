@@ -4310,7 +4310,7 @@ input, select, textarea {
 
 			#contact > .inner > :nth-child(2n) {
 				padding-left: 3em;
-				width: 40%;
+				width: 100%;
 			}
 
 			#contact > .inner > .split {
