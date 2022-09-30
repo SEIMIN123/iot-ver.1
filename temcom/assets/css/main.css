@@ -2930,7 +2930,9 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
-		width: 100%;
+		width: 63em;
+		margin-top: 0em;
+		margin-left: 7em;
 	}
 
 		.tiles + * {
@@ -2961,7 +2963,7 @@ input, select, textarea {
 			overflow: hidden;
 			position: relative;
 			margin: 0.3em;
-			border-radius: 10px;
+			border-radius: 5px;
 			box-shadow: 0 0 0.35em 0 rgba(255, 255, 255, 0.20);
 			left: 9em;
 			
@@ -3095,17 +3097,27 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			.tiles {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-flex-wrap: wrap;
+				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				flex-wrap: wrap;
+				border-top: 0 !important;
+				width: 100%;
+				right: 16.34em;
+				position: relative;
+				bottom: 2em;
+			}
+
 			.tiles article {
-				padding: 5em 3em 2em 3em ;
-				height: 30vh;
-				max-height: 30em;
-				min-height: 20em;
 				background-size: cover;
 				background-position: center center;
-				margin: 0.5em;
-				position: relative;
-				margin-left: -9em;
-				border-radius: 30px;
+				margin-top: 1em;
+
 			}
 
 			
