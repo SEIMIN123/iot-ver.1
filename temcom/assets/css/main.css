@@ -106,7 +106,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #171b2c;
+		background: #23273b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2931,7 +2931,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		border-top: 0 !important;
 		width: 63em;
-		margin-top: 0em;
+		margin-top: 5em;
 		margin-left: 7em;
 	}
 
@@ -2958,8 +2958,6 @@ input, select, textarea {
 			background-size: cover;
 			cursor: default;
 			width: 20%;
-			min-height: 15em;
-			max-height: 20em;
 			overflow: hidden;
 			position: relative;
 			margin: 0.3em;
@@ -4043,7 +4041,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/20180810161039434.jpg");
+		/* background-image: url("../../images/20180810161039434.jpg"); */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4143,9 +4141,9 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 50vh;
-			min-height: 30em;
-			max-height: 70em;
+			min-height: 25em;
+			max-height: 50em;
+			height: auto;
 		}
 
 			#banner.major.alt {
@@ -4265,7 +4263,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #1e2235;
+		background-color: #24263d;
 	}
 
 
