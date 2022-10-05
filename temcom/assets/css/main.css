@@ -4041,7 +4041,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		/* background-image: url("../../images/20180810161039434.jpg"); */
+		background-image: url("../../images/20180810161039434.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4168,12 +4168,14 @@ input, select, textarea {
 
 		#banner.style3:after {
 			/* background-color: #ec8d81; */
-			background-image: url(../../images/box1-1.png);
+			/* background-image: url(../../images/box1-1.png); */
+			background-image: url("../../images/20180810161039434.jpg");
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			filter: blur(1px) brightness(75%);
+			height: 100%;
+			filter: brightness(40%);
 		}
 
 		#banner.style4:after {
